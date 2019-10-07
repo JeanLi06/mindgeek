@@ -1,4 +1,4 @@
-<footer >
+<footer>
 	<nav>
 		<a href="#">Accueil</a>
 		<a href="#">Serveur Mutualisé</a>

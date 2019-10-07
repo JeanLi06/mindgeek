@@ -11,7 +11,7 @@ html {
 
 body {
     font-family: "Open Sans", sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 2;
     margin: 0;
     color: #999;
@@ -24,6 +24,12 @@ body {
 #logo:hover {
     transform: rotate3d(1, 0, 0, 180deg);
 }
+
+.tarif {
+    color: #FB8B9B;
+    text-align: center;
+}
+
 
 h1 {
     font-family: 'Candal', sans-serif;
@@ -77,6 +83,16 @@ nav a:hover {
     visibility: hidden;
 }
 
+h2 {
+    color: #213E4E;
+    border: 1px #213E4E dashed;
+    border-bottom: none;
+    text-align: center;
+    font-weight: bolder;
+    /* width: 80%; */
+    margin: 20px auto 0;
+}
+
 /* HEADER */
 header p {
     font-size: 2em;
@@ -106,11 +122,13 @@ input {
     border: none;
     padding-left: 30px;
     color: #FDC0CA;
+    width: inherit;
 }
 
 /*MAIN SECTION1 SECTION2*/
 main #section1 h3, main #section2 h3 {
     font-size: 1.2em;
+    color: #FB8B9B;
 }
 
 main #section1, main #section2 {
@@ -130,10 +148,11 @@ main p, main p {
 }
 
 #section1 h2, #section2 h2 {
-    font-size: 1.8em;
+    font-size: 1.5em;
     color: #213E4E;
     text-align: center;
     flex-basis: 100%;
+    margin-bottom: 2em;
 }
 
 section i {
@@ -145,15 +164,15 @@ strong {
 }
 
 /*MAIN MUTUALISE & DEDIE*/
-#mutualise h2, #dedie h2, #contact h2 {
-    color: #213E4E;
-    border: 1px #213E4E dashed;
-    border-bottom: none;
-    text-align: center;
-    font-weight: bolder;
-    width: 80%;
-    margin: 20px auto 0;
-}
+/*#mutualise h2, #dedie h2, #contact h2 {*/
+/*color: #213E4E;*/
+/*border: 1px #213E4E dashed;*/
+/*border-bottom: none;*/
+/*text-align: center;*/
+/*font-weight: bolder;*/
+/*width: 80%;*/
+/*margin: 20px auto 0;*/
+/*}*/
 
 #mutualise section h3, #dedie section h3 {
     color: white;
@@ -161,15 +180,27 @@ strong {
 }
 
 #dedie article h3, #mutualise article h3 {
+    font-size: 1em;
     display: block;
-    padding: 20px;
+    padding: 15px 0;
+    margin: 10px;
     background-color: #213E4E;
     color: white;
+}
+
+h4 {
+    text-align: center;
+    font-weight: 600;
+    color: #202c31;
 }
 
 #troisArticles {
     display: flex;
     justify-content: space-around;
+}
+
+ul {
+    list-style-type: circle;
 }
 
 /*Effet de focus sur articles*/
@@ -189,14 +220,17 @@ strong {
     flex-direction: column;
     justify-content: space-around;
     border: 1px #213E4E dashed;
+    background-color: white;
+    padding: 5px;
 }
 
 .commander {
-    width: 100%;
+    /* width: 100%; */
     height: 40px;
     color: white;
     background-color: #FB8B9B;
     text-align: center;
+    margin: 10px;
 }
 
 /*Section Contact*/
