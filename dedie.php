@@ -8,8 +8,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur minus veniam aperiam, aut, doloribus
                 facere accusamus cupiditate inventore enim, in quia! Debitis suscipit similique dolorum, est amet cumque
                 quidem illum unde vitae laudantium laborum hic officia cum assumenda libero iure. Reiciendis
-                necessitatibus quo, similique quae atque consectetur non accusantium illo vel earum et ex
-                praesentium.</p>
+                necessitatibus quo.</p>
         </section>
         <section id="troisArticles">
             <article>

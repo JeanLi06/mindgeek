@@ -13,15 +13,15 @@
             <h2>Notre solution en 3 points</h2>
             <article><i class="fas fa-cogs"></i>
                 <h3>Configuration</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nam, praesentium natus quam?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nam ?</p>
             </article>
             <article><i class="fas fa-chart-area"></i>
                 <h3>Monitoring</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit cum architecto provident rerum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </article>
             <article><i class="fas fa-hdd"></i>
                 <h3>Sauvegarde</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque culpa, ullam enim corrupti.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </article>
         </section>
         <section id="section2">

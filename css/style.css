@@ -30,7 +30,6 @@ body {
     text-align: center;
 }
 
-
 h1 {
     font-family: 'Candal', sans-serif;
 }
@@ -61,7 +60,7 @@ nav a i {
     color: #FB8B9B;
 }
 
-nav a i:hover {
+nav a:hover i {
     color: #213E4E;
 }
 
@@ -106,7 +105,7 @@ header h1 {
     background: url(../img/background.jpg) no-repeat center center;
     background-size: cover;
     text-align: center;
-    color: white;
+    color: #eee;
     padding: 200px 0 200px 0;
 }
 
@@ -163,19 +162,8 @@ strong {
     text-align: center;
 }
 
-/*MAIN MUTUALISE & DEDIE*/
-/*#mutualise h2, #dedie h2, #contact h2 {*/
-/*color: #213E4E;*/
-/*border: 1px #213E4E dashed;*/
-/*border-bottom: none;*/
-/*text-align: center;*/
-/*font-weight: bolder;*/
-/*width: 80%;*/
-/*margin: 20px auto 0;*/
-/*}*/
-
 #mutualise section h3, #dedie section h3 {
-    color: white;
+    color: #eee;
     text-align: center;
 }
 
@@ -185,7 +173,7 @@ strong {
     padding: 15px 0;
     margin: 10px;
     background-color: #213E4E;
-    color: white;
+    color: #eee;
 }
 
 h4 {
@@ -205,14 +193,14 @@ ul {
 
 /*Effet de focus sur articles*/
 #troisArticles:hover {
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
-#troisArticles article:hover {
+#troisArticles article:hover, #troisArticles article:hover h4 {
     opacity: 1;
     background-color: black;
+    color: #eee;
 }
-
 /*FIN Effet de focus sur articles*/
 
 #troisArticles article {
@@ -220,14 +208,13 @@ ul {
     flex-direction: column;
     justify-content: space-around;
     border: 1px #213E4E dashed;
-    background-color: white;
+    background-color: #eee;
     padding: 5px;
 }
 
 .commander {
-    /* width: 100%; */
     height: 40px;
-    color: white;
+    color: #eee;
     background-color: #FB8B9B;
     text-align: center;
     margin: 10px;
@@ -264,7 +251,7 @@ footer {
 }
 
 footer a {
-    color: white;
+    color: #eee;
 }
 
 /* LICENCE */
@@ -289,5 +276,4 @@ footer a {
         flex-direction: column;
         align-items: center;
     }
-
 }

@@ -1,8 +1,8 @@
 <?php include 'header.php'; ?>
     <form>
-        <input type="" name="" placeholder="QUE RECHERCHEZ-VOUS ?">
+        <input type="text" name="recherche" placeholder="QUE RECHERCHEZ-VOUS ?">
     </form>
-    <main id="mutualise" class="container">
+    <main id="cloud" class="container">
         <section>
             <h2>Le cloud</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur minus veniam aperiam, aut, doloribus

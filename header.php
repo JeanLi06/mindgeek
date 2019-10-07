@@ -11,8 +11,6 @@
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
 </head>
 <body>
 <!--HEADER-->
@@ -20,7 +18,7 @@
 
 </header>
 <nav>
-    <a href="index.php"><img src="img/logo.png" id="logo"></a>
+    <a href="index.php"><img src="img/logo.png" id="logo" alt="Logo Mindgeek"></a>
     <a href="mutualise.php"><i class="fas fa-users"></i>Serveur Mutualisé</a>
     <a href="dedie.php"><i class="fas fa-user-alt"></i>Seveur Dédié</a>
     <a href="cloud.php"><i class="fas fa-cloud"></i>Solution "Cloud"</a>

@@ -2,7 +2,7 @@
     <form>
         <input type="text" name="" placeholder="QUE RECHERCHEZ-VOUS ?">
     </form>
-    <main id="mutualise">
+    <main id="mutualise" class="container">
         <section>
             <h2>Le serveur mutualisé</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur minus veniam aperiam, aut, doloribus
