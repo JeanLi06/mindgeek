@@ -1,7 +1,5 @@
 <?php include 'header.php'; ?>
-    <form>
-        <input type="text" name="" placeholder="QUE RECHERCHEZ-VOUS ?">
-    </form>
+<?php include 'form.php' ?>
     <main id="mutualise" class="container">
         <section>
             <h2>Le serveur mutualisé</h2>

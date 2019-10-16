@@ -4,10 +4,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum porro numquam eaque, sequi consectetur,
             tempora doloribus aliquam soluta!</p>
     </section>
-    <form>
-        <input type="text" name="" placeholder="QUE RECHERCHEZ-VOUS ?">
-    </form>
-
+<?php include 'form.php' ?>
     <main class="container">
         <section id="section1">
             <h2>Notre solution en 3 points</h2>

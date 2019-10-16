@@ -1,7 +1,5 @@
 <?php include 'header.php'; ?>
-    <form>
-        <input type="text" name="recherche" placeholder="QUE RECHERCHEZ-VOUS ?">
-    </form>
+<?php include 'form.php' ?>
     <main id="cloud" class="container">
         <section>
             <h2>Le cloud</h2>
